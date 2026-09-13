@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    height: 0;
+    background-color:  rgb(25, 172, 177);
+
+}
+
+
+.card-content, img{
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+.avatar {
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Faixa colorida do topo */
+.card-header {
+    height: 100px;
+    background: linear-gradient(90deg, #00ff2a, #8900e5);
+}
+
+/* Área que contém a foto */
+.profile-section {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+/* Círculo da foto */
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+/* A imagem ocupa todo o círculo */
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.card-content {
+    flex: 1;
+    padding: 65px 30px 25px;
+    text-align: center;
+}
+
+.contact-card-2 .btn-principal {
+    background: linear-gradient(90deg, #17eda6, #7b0ef8);
+}
+.info-item{
+    color: black;   
+      line-height: 1.5;
+}
+.social-links .social-btn.linkedin {
+    color: white;
+    background-color: aqua;
+
+}
+
+.contact-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 450px;
+    min-height: 485px;
+    margin: 0;
+
+    background-color: white;
+    border-radius: 0 0 18px 18px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    width: 100%;
+    height: 90px;
+
+    background: linear-gradient(90deg, #08e513, #8900d9);
+}
+
+/* Faixa do segundo cartão */
+.card-header-2 {
+    background: linear-gradient(90deg, #17eda6, #7b0ef8);
+}
+
+.btn-principal {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #08e513, #8900d9);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.titulo{
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.label {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555;
+    white-space: nowrap;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.contact-info {
+    background-color: #f1f8fc;
+    border-left: 3px solid #08bde5;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    text-align: left;
+}
+.contact-card-2 .contact-info {
+    border-left-color: #ed1761;
+}
+.social-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.linkedin {
+    background-color: #0a9bdc;
+}
+
+.github {
+    background-color: #270bc5;
+}
+
+.portfolio {
+    background-color: #08bde5;
+}
+
+.dribbble {
+    background-color: #ea4c89;
+}
+
+.behance {
+    background-color: #ff17ec;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #833ab4, #e1306c, #f77737);
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #dce8ee;
+    font-size: 10px;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.label {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555;
+    white-space: nowrap;
+}
+
+.valor {
+    color: #777;
+    text-align: right;
+}
+.card-footer{
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}
